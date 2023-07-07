@@ -6,6 +6,10 @@
   --tertiary-accent-color: #b79417;
 }
 
+body {
+  background-color: #000;
+}
+
 h1,
 h2,
 h3,
@@ -26,7 +30,6 @@ p {
 .hero {
   text-align: center;
   color: #fff;
-  background-color: #000;
   padding: 100px 20px;
 }
 
@@ -56,4 +59,28 @@ p {
   font-size: 14px;
   padding: 18px 30px;
   margin: 25px auto 15px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 9px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .btn-branding {
+    font-size: 7px;
+    padding: 9px 15px;
+    margin: 13px auto 8px;
+  }
 }
