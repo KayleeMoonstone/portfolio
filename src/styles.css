@@ -8,6 +8,7 @@
 
 body {
   background-color: #000;
+  color: #fff;
 }
 
 h1,
@@ -19,18 +20,17 @@ h6 {
   font-family: var(--heading-font);
 }
 
-h1 {
-  font-size: 72px;
-}
-
 p {
   font-family: var(--body-font);
 }
 
 .hero {
   text-align: center;
-  color: #fff;
   padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 72px;
 }
 
 .hero p {
@@ -61,8 +61,45 @@ p {
   margin: 25px auto 15px;
 }
 
+.about-section {
+  padding: 100px 20px;
+}
+
+.about-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-section h1 {
+  font-size: 52px;
+}
+.about-section h3 {
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--secondary-accent-color);
+}
+
+.about-section p {
+  line-height: 30px;
+}
+
+.about-section ul {
+  list-style: none;
+}
+
+.about-section li {
+  color: #fff;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.about-section a {
+  color: #fff;
+}
+
 @media (max-width: 600px) {
-  h1 {
+  .hero h1 {
     font-size: 36px;
   }
 
@@ -82,5 +119,17 @@ p {
     font-size: 7px;
     padding: 9px 15px;
     margin: 13px auto 8px;
+  }
+
+  .about-section img {
+    margin-bottom: 30px;
+  }
+
+  .about-section h1 {
+    font-size: 26px;
+  }
+  .about-section h3,
+  p {
+    font-size: 10px;
   }
 }
