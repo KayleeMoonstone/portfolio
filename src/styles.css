@@ -32,12 +32,14 @@ p {
   width: 40px;
 }
 
-.hero {
+.hero,
+.work-section {
   text-align: center;
   padding: 100px 20px;
 }
 
-.hero h1 {
+.hero,
+.work-section h1 {
   font-size: 72px;
 }
 
@@ -90,6 +92,7 @@ p {
 
 .about-section p {
   line-height: 30px;
+  font-size: 18px;
 }
 
 .about-section ul {
@@ -107,16 +110,24 @@ p {
   color: #fff;
 }
 
+.work-section img {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+
 @media (max-width: 600px) {
   h4 {
     font-size: 9px;
   }
 
-  .hero {
+  .hero,
+  .work-section {
     padding: 90px 20px;
   }
 
-  .hero h1 {
+  .hero,
+  .work-section h1 {
     font-size: 36px;
   }
 
