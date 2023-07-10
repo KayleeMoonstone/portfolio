@@ -24,6 +24,10 @@ p {
   font-family: var(--body-font);
 }
 
+a {
+  color: var(--primary-accent-color);
+}
+
 .bg-nav {
   background-color: #000;
 }
@@ -33,7 +37,8 @@ p {
 }
 
 .hero,
-.work-section {
+.work-section,
+.contact {
   text-align: center;
   padding: 100px 20px;
 }
